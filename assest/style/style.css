@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+li{
+	list-style-type: none;
+}
+
+.to-do-list{
+  width: 22rem;
+  margin:auto;
+  text-align: center;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+h2{
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 900;
+}
+.inp{
+	outline: none;
+	border: 1px solid red;
+	border-radius: 4px;
+	padding: 10px;
+}
+.addBtn{
+	padding: 7px;
+    border-radius: 4px;
+    font-weight: 800;
+    background-color: rgb(94, 147, 15);
+    color: white;
+	transition: .4s;
+}
+.inp-add{
+	text-align: start;
+}
+.addBtn:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.wrapper-style{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 1rem;
+}
+/* ================== tab menu style ================ */
+
+.tab-menu-wrapp{
+	margin: 1rem  auto;
+	text-align: center;
+}
+.tab-menu-title{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+
+}
+.title{
+  width: 8rem;
+  padding: 1rem;
+  margin-right: 10px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.tab-menu-content ul{
+	display: none;
+}
+.tab-menu-content{
+  display: flex;
+  justify-content: center;
+}
+ul{
+	width: 20rem;
+	margin-top: 1rem;
+	padding: 2rem;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+ul li{
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+.title:hover{
+	cursor: pointer;
+	background-color: rgb(144, 210, 213);
+
+}
+.active{
+	background-color: aqua;
+	color: black;
+}
+.show{
+	display: block !important;
+}
+
+/* ======    slider style start ==== */
+.slider-wrapp{
+	margin-top: 7rem;
+	text-align: center;
+}
+.slider-imgs{
+	width: 40rem;
+	height: 20rem;
+	margin: 1rem auto;
+}
+.slider-imgs img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+.left-right span i {
+   padding: 1rem;
+   border: 1px solid black;
+   border-radius: 100%;
+   color: cadetblue;
+   transition: 0.5s;
+   margin-right: 1.5rem;
+}
+.left-right span:hover i {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+ }
